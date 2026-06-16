@@ -657,32 +657,3 @@ elif st.session_state.page == 501:
 elif st.session_state.page == 900:
 
     st.video("assets/special.mov")
-
-    st.write("")
-
-    if st.button("❤️ Xem lời cuối ❤️"):
-        st.session_state.page = 999
-        st.rerun()
-# ==========================
-# ENDING
-# ==========================
-
-elif st.session_state.page == 999:
-
-    st.markdown("""
-    <div class="start-title">
-        <h1>❤️</h1>
-        <h2>Lời cuối cùng</h2>
-    </div>
-    """, unsafe_allow_html=True)
-
-    st.audio("assets/final.mp3")
-
-    st.markdown("""
-    <div class="chatbox">
-        [Viết lời kết của bạn ở đây]
-
-        Cảm ơn em đã dành thời gian xem hết những điều anh muốn gửi.
-        Dù tương lai thế nào thì anh vẫn luôn trân trọng những kỷ niệm của chúng ta. ❤️
-    </div>
-    """, unsafe_allow_html=True)
