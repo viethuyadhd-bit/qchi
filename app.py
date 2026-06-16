@@ -656,4 +656,4 @@ elif st.session_state.page == 501:
         st.rerun()
 elif st.session_state.page == 900:
 
-    st.video("assets/special.mov")
+    st.video("assets/special.mp4")
